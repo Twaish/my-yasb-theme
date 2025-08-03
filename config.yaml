@@ -129,11 +129,6 @@ widgets:
         on_left: "toggle_calendar"
         on_middle: "toggle_label"
         on_right: "next_timezone"
-      label_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [ 1, 1 ]
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
@@ -195,11 +190,16 @@ widgets:
       label: "<span>{icon}</span> {temp}"
       label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
       api_key: env
+      show_alerts: true
+      tooltip: true
       update_interval: 600
       hide_decimal: true
+      units: "metric"
       location: env
       callbacks:
-        on_left: "toggle_label"
+        on_left: "toggle_card"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
       icons:
         sunnyDay: "\ue30d"
         clearNight: "\ue32b"
@@ -216,6 +216,23 @@ widgets:
         thunderstormDay: "\ue30f"
         thunderstormNight: "\ue338"
         default: "\uebaa"
+      weather_card:
+        blur: True
+        round_corners: True
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        icon_size: 64
+        show_hourly_forecast: True
+        time_format: "24h"
+        hourly_point_spacing: 76
+        hourly_icon_size: 32
+        icon_smoothing: true # should be true for smoother icon or false for sharper icon if using 16, 32 or 64 for hourly_icon_size
+        temp_line_width: 2 # can be 0 to hide the temperature line
+        current_line_color: "#8EAEE8"
+        current_line_width: 1 # can be 0 to hide the current hour line
+        current_line_style: "dot"
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
@@ -345,11 +362,6 @@ widgets:
         on_left: "toggle_group"
         on_middle: "toggle_label"
         on_right: "exec explorer C:\\"
-      label_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [ 1, 1 ]
       disk_thresholds:
         low: 25
         medium: 50
@@ -379,8 +391,3 @@ widgets:
         icon_medium: "\uf242"
         icon_high: "\uf241"
         icon_full: "\uf240"
-      label_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [ 1, 1 ]
