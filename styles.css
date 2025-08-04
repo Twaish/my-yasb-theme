@@ -40,6 +40,10 @@ For more information about configuration options, please visit the Wiki https://
 .yasb-bar {
   padding: 0;
   margin: 0;
+  /*background-color: rgba(0, 0, 0, .8);
+  border-radius: 8px;
+  border: 1px solid #45475a33;*/
+  
   background-color: var(--crust);
   border-radius: 8px;
   border: 1px solid #313244;

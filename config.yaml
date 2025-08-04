@@ -128,8 +128,8 @@ widgets:
         holiday_color: "#FF6464"
       callbacks:
         on_left: "toggle_calendar"
-        on_middle: "toggle_label"
-        on_right: "next_timezone"
+        on_middle: "next_timezone"
+        on_right: "toggle_label"
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
