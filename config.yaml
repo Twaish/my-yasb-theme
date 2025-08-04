@@ -50,11 +50,12 @@ bars:
         "apps",
       ]
       right: [
-        "taskbar",
+        # "taskbar",
         # "systray",
+        "cava",
+        "weather",
         "disk",
         "battery",
-        "weather",
         "microphone",
         "volume",
         "notifications",
@@ -360,8 +361,8 @@ widgets:
         direction: "down"
       callbacks:
         on_left: "toggle_group"
-        on_middle: "toggle_label"
-        on_right: "exec explorer C:\\"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
       disk_thresholds:
         low: 25
         medium: 50
@@ -391,3 +392,27 @@ widgets:
         icon_medium: "\uf242"
         icon_high: "\uf241"
         icon_full: "\uf240"
+      callbacks:
+        on_left: "do_nothing"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+  cava:
+    type: "yasb.cava.CavaWidget"
+    options:
+      bar_height: 12
+      min_bar_height: 0
+      gradient: 1
+      reverse: 0
+      foreground: "#89b4fa"
+      gradient_color_1: '#74c7ec'
+      gradient_color_2: '#89b4fa'
+      gradient_color_3: '#cba6f7'
+      bars_number: 8
+      bar_spacing: 2
+      bar_width: 4
+      hide_empty: true
+      container_padding:
+        top: 0
+        left: 8
+        bottom: 0
+        right: 8

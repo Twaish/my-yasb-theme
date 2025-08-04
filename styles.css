@@ -200,8 +200,15 @@ For more information about configuration options, please visit the Wiki https://
   margin: 0 4px;
   border-radius: 5px;
 }
+
 .apps-widget {
   padding: 0 4px 0 2px;
+  padding: 0;
+}
+.apps-widget .widget-container {
+  background-color: transparent;
+  border: none;
+  margin: 2px 4px;
 }
 .apps-widget .label {
   font-size: 14px;
@@ -210,7 +217,9 @@ For more information about configuration options, please visit the Wiki https://
 }
 .apps-widget .label:hover {
   color: var(--text);
+  background-color: rgba(70, 70, 70, .5);
 }
+
 
 .power-menu-widget .label {
   color: #f38ba8;
@@ -302,7 +311,7 @@ For more information about configuration options, please visit the Wiki https://
   background-color: rgba(0, 0, 0, 0.1);
 }
 .weather-card-today {
-  border: 1px solid #45475a;
+  border: 1px solid #45475a33;
   border-radius: 8px;
   background-color:  rgba(17, 17, 17, 0.2);
 }
@@ -323,7 +332,7 @@ For more information about configuration options, please visit the Wiki https://
   padding: 5px 0;
 }
 .weather-card-day {
-  border: 1px solid #45475a;
+  border: 1px solid #45475a33;
   border-radius: 8px;
   background-color:  rgba(17, 17, 17, 0.2);
 }
@@ -346,7 +355,6 @@ For more information about configuration options, please visit the Wiki https://
 }
 
 .weather-card .hourly-data {
-  background-color: #FAE93F;
   background-color: var(--blue);
   
   font-size: 12px;
@@ -464,7 +472,7 @@ For more information about configuration options, please visit the Wiki https://
 
 
 .calendar {
-  background-color: rgba(17, 17, 27, 0.4);
+  background-color: rgba(17, 17, 17, 0.4);
 }
 .calendar .calendar-table,
 .calendar .calendar-table::item {
