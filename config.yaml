@@ -190,7 +190,7 @@ widgets:
     type: "yasb.weather.WeatherWidget"
     options:
       label: "<span>{icon}</span> {temp}"
-      label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
+      label_alt: "<span>{icon}</span> {location} {min_temp}–{max_temp} {humidity}%"
       api_key: env
       show_alerts: true
       tooltip: true
@@ -342,8 +342,8 @@ widgets:
   disk:
     type: "yasb.disk.DiskWidget"
     options:
-      label: "{volume_label}: {space[used][percent]} used"
-      label_alt: "{volume_label}: {space[used][gb]} / {space[total][gb]}"
+      label: "<span>\uf1c0</span> {space[used][percent]}"
+      label_alt: "<span>\uf1c0</span> {space[used][gb]} / {space[total][gb]}"
       volume_label: "C"
       update_interval: 60
       group_label:
