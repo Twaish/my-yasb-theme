@@ -1,8 +1,9 @@
 .disk-widget {
-  padding: 0 6px 0 6px;
+  padding: 0 6px;
 }
 .disk-widget .icon {
   color: var(--lavender);
+  margin-right: 2px;
 }
 .disk-group {
   background-color:rgba(17, 17, 27, 0.4); 

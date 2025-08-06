@@ -1,9 +1,9 @@
 .pomodoro-widget {
-  padding: 0 6px 0 6px;
+  padding: 0 6px;
 }
 .pomodoro-widget .icon {
-  font-size: 12px;
-  padding-right: 4px;
+  font-size: 14px;
+  margin-right: 2px;
 }
 .pomodoro-widget .label.paused,
 .pomodoro-widget .icon.paused {

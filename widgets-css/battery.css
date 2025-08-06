@@ -1,3 +1,7 @@
+.battery-widget {
+  padding: 0 6px;
+}
 .battery-widget .widget-container .icon {
   color: var(--yellow);
+  margin-right: 2px;
 }
