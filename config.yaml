@@ -33,10 +33,10 @@ bars:
       width: "100%"
       height: 32
     padding:
-      top: 2
-      left: 2
-      bottom: 2
-      right: 2
+      top: 4
+      left: 4
+      bottom: 4
+      right: 4
     widgets:
       left: [
         "home",
@@ -240,7 +240,7 @@ widgets:
     options:
       label: "<span>{icon}</span> {level}"
       label_alt: "{volume}"
-      tooltip: false
+      tooltip: true
       volume_icons:
         - "\ueee8"
         - "\uf026"
@@ -362,7 +362,7 @@ widgets:
     type: "yasb.battery.BatteryWidget"
     options:
       label: "<span>{icon}</span> {percent}%"
-      label_alt: "<span>{icon}</span> {percent}% | time: {time_remaining}"
+      label_alt: "<span>{icon}</span> {percent}% ({time_remaining})"
       update_interval: 5000
       time_remaining_natural: False
       hide_unsupported: True
