@@ -52,8 +52,8 @@ bars:
       right: [
         # "taskbar",
         # "systray",
-        "pomodoro",
         "apps",
+        "pomodoro",
         "weather",
         "disk",
         "battery",
@@ -316,11 +316,6 @@ widgets:
       show_battery: false
       show_volume: false
       show_network: false
-      container_padding:
-          left: 0
-          top: 0
-          right: 0
-          bottom: 0
       btn_shadow:
         enabled: true
         color: "black"
@@ -407,11 +402,6 @@ widgets:
       bar_spacing: 2
       bar_width: 4
       hide_empty: true
-      container_padding:
-        top: 0
-        left: 8
-        bottom: 0
-        right: 8
   pomodoro:
     type: "yasb.pomodoro.PomodoroWidget"
     options:
@@ -431,11 +421,6 @@ widgets:
         work: "\uf252"
         break: "\uf253"
         paused: "\uf254"
-      container_padding:
-        top: 0
-        left: 12
-        bottom: 0
-        right: 12
       menu:
         blur: true
         round_corners: true
