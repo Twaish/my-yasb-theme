@@ -146,7 +146,6 @@
   font-weight: 600;
   padding: 2px 0 0 0;
 }
-.apps-widget .widget-container,
 .komorebi-workspaces .widget-container,
 .komorebi-active-layout .widget-container {
   background-color: var(--surface1);
@@ -201,16 +200,17 @@
   border-radius: 5px;
 }
 
-@import "./widgets-css/pomodoro.css";
-@import "./widgets-css/disk.css";
-@import "./widgets-css/taskbar.css";
-@import "./widgets-css/calendar.css";
-@import "./widgets-css/systray.css";
-@import "./widgets-css/notification.css";
-@import "./widgets-css/home.css";
-@import "./widgets-css/media.css";
-@import "./widgets-css/weather.css";
-@import "./widgets-css/volume.css";
-@import "./widgets-css/microphone.css";
-@import "./widgets-css/powermenu.css";
-@import "./widgets-css/applications.css";
+@import "widgets-css/pomodoro.css";
+@import "widgets-css/disk.css";
+@import "widgets-css/taskbar.css";
+@import "widgets-css/calendar.css";
+@import "widgets-css/systray.css";
+@import "widgets-css/notification.css";
+@import "widgets-css/home.css";
+@import "widgets-css/media.css";
+@import "widgets-css/weather.css";
+@import "widgets-css/volume.css";
+@import "widgets-css/microphone.css";
+@import "widgets-css/powermenu.css";
+@import "widgets-css/applications.css";
+@import "widgets-css/battery.css";
