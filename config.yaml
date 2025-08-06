@@ -47,12 +47,13 @@ bars:
       center: [
         "media",
         "clock",
-        "apps",
+        "cava",
       ]
       right: [
         # "taskbar",
         # "systray",
-        "cava",
+        "pomodoro",
+        "apps",
         "weather",
         "disk",
         "battery",
@@ -290,7 +291,6 @@ widgets:
         - { icon: "\uf489", launch: "wt" }
         - { icon: "\ueb51", launch: "quick_settings" }
         - { icon: "\uf46a", launch: "start ms-settings:windowsupdate" }
-        - { icon: "\uf422", launch: "search" }
   notifications:
     type: "yasb.notifications.NotificationsWidget"
     options:
@@ -412,3 +412,50 @@ widgets:
         left: 8
         bottom: 0
         right: 8
+  pomodoro:
+    type: "yasb.pomodoro.PomodoroWidget"
+    options:
+      label: "<span>{icon}</span> {remaining}"
+      label_alt: "<span>{icon}</span> {session}/{total_sessions} - {status}"
+      work_duration: 25
+      break_duration: 5
+      long_break_duration: 15
+      long_break_interval: 4
+      auto_start_breaks: true
+      auto_start_work: true
+      sound_notification: true
+      show_notification: true
+      hide_on_break: false
+      session_target: 8
+      icons:
+        work: "\uf252"
+        break: "\uf253"
+        paused: "\uf254"
+      container_padding:
+        top: 0
+        left: 12
+        bottom: 0
+        right: 12
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        circle_background_color: "#09ffffff"
+        circle_work_progress_color: "#88c0d0"
+        circle_break_progress_color: "#a3be8c"
+        circle_thickness: 8
+        circle_size: 160
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "reset_timer"
+        on_right: "toggle_label"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]

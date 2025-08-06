@@ -1,0 +1,32 @@
+.media-widget {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+.media-widget .label {
+  color: #bac2db;
+  padding: 0px;
+  padding-right: 4px;
+  font-size: 12px;
+}
+.media-widget .btn {
+  color: #7a7f8b;
+  padding: 0 4px;
+  margin: 0;
+  font-family: "JetBrainsMono NFP";
+  font-weight: 400;
+  font-size: 20px;
+}
+.media-widget .btn:hover {
+  color: #babfd3;
+}
+.media-widget .btn.play {
+  font-size: 24px;
+  color: #989caa;
+}
+.media-widget .btn.disabled:hover,
+.media-widget .btn.disabled {
+  color: #4e525c;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 20px;
+}
