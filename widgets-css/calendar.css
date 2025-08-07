@@ -1,20 +1,18 @@
 .calendar {
-  background-color: rgba(17, 17, 17, 0.4);
+  background-color: var(--background);
 }
 .calendar .calendar-table,
 .calendar .calendar-table::item {
-  background-color: rgba(17, 17, 27, 0);
-  color: rgba(162, 177, 196, 0.85);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: transparent;
+  color: var(--subtext);
+  font-family: 'Segoe UI';
   border: none;
-  outline: none;  
+  outline: none;
 }
 .calendar .calendar-table::item:selected {
-  color: rgb(255, 255, 255);
-  background-color: #007acc;
-  border-radius: 10px;
+  color: var(--text-inverse);
+  background-color: white;
+  border-radius: var(--radius-lg);
 }
 .calendar .day-label,
 .calendar .month-label,
@@ -23,7 +21,7 @@
 .calendar .holiday-label {
   font-family: 'Segoe UI';
   font-size: 16px;
-  color: #fff;
+  color: var(--text);
   font-weight: 700;
   min-width: 180px;
   max-width: 180px;
@@ -32,11 +30,11 @@
 .calendar .holiday-label {
   font-size: 12px;
   font-weight: 600;
-  color: rgba(162, 177, 196, 0.85);
+  color: var(--subtext);
 }
 .calendar .holiday-label {
-  color: rgba(162, 177, 196, 0.85);
   font-weight: 700;
+  color: var(--subtext);
 }
 .calendar .month-label {
   font-weight: normal;
@@ -44,6 +42,6 @@
 .calendar .date-label {
   font-size: 88px;
   font-weight: 900;
-  color: rgb(255, 255, 255);
+  color: var(--text);
   margin-top: -20px;
 }
