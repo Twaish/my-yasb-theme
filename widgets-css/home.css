@@ -2,14 +2,14 @@
   padding: 0 4px 0 12px;
 }
 .home-widget .icon {
-  color: var(--lavender);
+  color: var(--subtext);
 }
 .home-widget .icon:hover {
   color: var(--text);
 }
 .home-menu {
-  background-color: var(--crust);
-  border-radius: 8px;
+  background-color: var(--background);
+  border-radius: var(--radius-lg);
 }
 .home-menu .menu-item {
   padding: 8px 48px 9px 16px;

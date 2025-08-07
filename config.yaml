@@ -75,7 +75,10 @@ widgets:
       - { title: "Pictures", path: "~\\Pictures" }
       system_menu: true
       power_menu: true
-      blur: false
+      blur: true
+      round_corners: true
+      round_corners_type: "normal"
+      border_color: "System"
   media:
     type: "yasb.media.MediaWidget"
     options:
@@ -123,9 +126,9 @@ widgets:
         border_color: "System"
         alignment: "center"
         direction: "down"
-        show_holidays: False
+        show_holidays: True
         show_week_numbers: True
-        country_code: "AR"
+        country_code: "DK"
         holiday_color: "#FF6464"
       callbacks:
         on_left: "toggle_calendar"
@@ -346,7 +349,7 @@ widgets:
         show_label_name: true
         blur: True
         round_corners: True
-        round_corners_type: "small"
+        round_corners_type: "normal"
         border_color: "System"
         alignment: "right"
         direction: "down"
