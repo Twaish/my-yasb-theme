@@ -17,7 +17,6 @@
   --base: #1e1e2e;
   --crust: rgba(32, 32, 43, 0.92);
 
-
   /* CUSTOM */
   --background: rgba(20, 20, 20, 0.8);
   --black-0: rgba(255, 255, 255, 0.01);
@@ -28,9 +27,12 @@
   --black-5: rgba(255, 255, 255, 0.15);
   --black-6: rgba(255, 255, 255, 0.18);
   --muted: rgba(150, 150, 150, 0.8);
-  --text: #efefef;
 
+  --text: #efefef;
   --text-inverse: #1e1e1e;
+
+  --subtext: #a6a6a6;
+
   --border: #292929;
 
   --systray-icon-hover: #727272;
