@@ -87,15 +87,35 @@ widgets:
       max_field_size:
         label: 24
         label_alt: 24
-      show_thumbnail: true
-      controls_only: false
-      controls_left: true
-      hide_empty: true
+      callbacks:
+        on_left: "toggle_media_menu"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+      show_thumbnail: True
+      controls_hide: True
+      hide_empty: True
       thumbnail_alpha: 80
       thumbnail_padding: 24
       thumbnail_corner_radius: 0
-      thumbnail_edge_fade: true
+      thumbnail_edge_fade: True
       icons:
+        prev_track: "\udb81\udcae"
+        next_track: "\udb81\udcad"
+        play: "\udb81\udc0a"
+        pause: "\udb80\udfe4"
+      media_menu:
+        blur: True
+        round_corners: True
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        thumbnail_corner_radius: 4
+        thumbnail_size: 100
+        max_title_size: 80
+        max_artist_size: 20
+        show_source: true
+      media_menu_icons:
         prev_track: "\udb81\udcae"
         next_track: "\udb81\udcad"
         play: "\udb81\udc0a"
