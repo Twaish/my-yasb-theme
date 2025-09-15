@@ -139,7 +139,7 @@ widgets:
     options:
       label: "{%a, %d %b %H:%M}"
       label_alt: "{%d-%m-%y %H:%M:%S}"
-      locale: ""
+      locale: "en_DK"
       update_interval: 1000
       timezones: ["Europe/Copenhagen"]
       calendar: 
