@@ -38,6 +38,7 @@
   --systray-icon-hover: #727272;
   --systray-icon-radius: 4px;
 
+  --radius-xl: 8px;
   --radius-lg: 6px;
   --radius-md: 4px;
   --radius-sm: 2px;
@@ -51,98 +52,15 @@
   padding: 0;
 }
 .yasb-bar {
-  padding: 0;
-  margin: 0;
-
-  background-color: var(--crust);
-  border-radius: 8px;
-  border: 1px solid #313244;
-
   background-color: var(--background);
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
 }
 .tooltip {
-  background-color: #18191a;
-  border: 1px solid #36383a;
-  border-radius: 4px;
-  color: #a6adc8;
   padding: 6px 12px;
-  font-size: 13px;
-  font-family: 'Segoe UI';
-  font-weight: 600;
-  margin-top: 4px;
-}
-.context-menu,
-.context-menu .menu-checkbox {
-  background-color: #202020;
-  border: none;
-  padding: 4px 0px;
-  font-family: 'Segoe UI';
-  font-size: 12px;
-  color: #FFFFFF;
-}
-.context-menu::right-arrow {
-  width: 8px;
-  height: 8px;
-  padding-right: 24px;
-}
-.context-menu::item,
-.context-menu .menu-checkbox {
-  background-color: transparent;
-  padding: 6px 12px;
-  margin: 2px 6px;
-  border-radius: 6px;
-  min-width: 100px;
-}
-
-.context-menu::item:selected,
-.context-menu .menu-checkbox:hover {
-  background-color: #3a3a3a;
-  color: #FFFFFF;
-}
-
-.context-menu::separator {
-  height: 1px;
-  background-color: #404040;
-  margin: 4px 8px;
-}
-.context-menu::item:disabled {
-  color: #666666;
-  background-color: transparent;
-}
-
-.context-menu .menu-checkbox .checkbox {
-  border: none;
-  padding: 8px 16px;
-  font-size: 12px;
-  margin: 0;
-  color: #FFFFFF;
-  font-family: 'Segoe UI'
-}
-.context-menu .submenu::item:disabled {
-  margin: 0;
-  padding-left: 16px;
-}
-.context-menu .menu-checkbox .checkbox:unchecked {
-  color: #999
-}
-.context-menu .menu-checkbox .checkbox::indicator {
-  width: 12px;
-  height: 12px;
-  margin-left: 0px;
-  margin-right: 8px;
-}
-.context-menu .menu-checkbox .checkbox::indicator:unchecked {
-  background: #444444;
-  border-radius: 2px;
-}
-.context-menu .menu-checkbox .checkbox::indicator:checked {
-  background: #007acc;
-  border-radius: 2px;
-}
-.context-menu .menu-checkbox .checkbox:focus {
-  outline: none;
+  border-radius: var(--radius-md);
+  background-color: var(--background);
+  color: var(--text);
 }
 
 .widget {
@@ -221,7 +139,7 @@
 @import "widgets-css/taskbar.css";
 @import "widgets-css/calendar.css";
 @import "widgets-css/systray.css";
-@import "widgets-css/notification.css";
+@import "widgets-css/notifications.css";
 @import "widgets-css/home.css";
 @import "widgets-css/media.css";
 @import "widgets-css/weather.css";
@@ -230,3 +148,4 @@
 @import "widgets-css/powermenu.css";
 @import "widgets-css/applications.css";
 @import "widgets-css/battery.css";
+@import "widgets-css/contextmenu.css";
