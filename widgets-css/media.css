@@ -51,6 +51,7 @@
 .media-menu .source {
   font-size: 12px;
   padding: 2px 0px;
+  padding: 2px 4px;
   border-radius: var(--radius-md);
   background-color: var(--black-2);
 }
@@ -142,4 +143,31 @@
   background: white;
   border-radius: var(--radius-sm);
   height: 4px;
+}
+
+
+.media-menu .app-volume-container {
+  max-height: 420px;
+  margin-left: 10px; 
+}
+.media-menu .app-volume-container .volume-slider::groove {
+  background-color: var(--black-5);
+  width: 2px;
+  border-radius: var(--radius-sm);
+}
+.media-menu .app-volume-container .volume-slider::add-page {
+  background: white;
+  border-radius: var(--radius-sm);
+}
+.media-menu .app-volume-container .volume-slider::groove:hover {
+  width: 6px;
+}
+.media-menu .app-volume-container .mute-button,
+.media-menu .app-volume-container .unmute-button {
+  font-size: 16px;
+  font-family: "Segoe Fluent Icons";
+  margin-top: 4px; 
+}
+.media-menu .app-volume-container .unmute-button {
+  color: var(--muted);
 }
