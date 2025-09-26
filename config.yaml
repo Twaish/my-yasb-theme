@@ -52,7 +52,8 @@ bars:
       right: [
         # "taskbar",
         # "systray",
-        "apps",
+        "launchpad",
+        # "apps",
         "pomodoro",
         "weather",
         "disk",
@@ -465,3 +466,24 @@ widgets:
         on_left: "toggle_menu"
         on_middle: "reset_timer"
         on_right: "toggle_label"
+  launchpad:
+    type: "yasb.launchpad.LaunchpadWidget"
+    options:
+      label: "<span>\udb85\udcde</span>"
+      search_placeholder: "Search apps..."
+      app_icon_size: 48
+      window:
+        fullscreen: false
+        width: 800
+        height: 600
+        overlay_block: true
+      window_animation:
+        fade_in_duration: 0
+        fade_out_duration: 0
+      window_style:
+        enable_blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+      callbacks:
+        on_left: "toggle_launchpad"
