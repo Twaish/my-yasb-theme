@@ -1,5 +1,5 @@
 .komorebi-workspaces {
-  padding: 0 4px 0 0;
+  padding: 0;
 }
 .komorebi-workspaces .offline-status {
   color: var(--muted);
