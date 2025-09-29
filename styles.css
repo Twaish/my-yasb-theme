@@ -73,19 +73,6 @@
 .widget .label {
   padding: 0px 2px;
 }
-.komorebi-active-layout {
-  padding: 0 4px 0 0;
-}
-.komorebi-active-layout .label {
-  font-weight: 600;
-  padding: 2px 0 0 0;
-}
-.komorebi-active-layout .widget-container {
-  background-color: var(--surface1);
-  margin: 3px 0 3px 0;
-  border-radius: 12px;
-  border: 1px solid var(--surface0);
-}
 
 @import "widgets-css/pomodoro.css";
 @import "widgets-css/disk.css";
@@ -104,3 +91,4 @@
 @import "widgets-css/contextmenu.css";
 @import "widgets-css/launchpad.css";
 @import "widgets-css/komorebiworkspaces.css";
+@import "widgets-css/komorebiactivelayout.css";
