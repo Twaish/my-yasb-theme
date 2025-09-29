@@ -52,9 +52,9 @@ bars:
       right: [
         # "taskbar",
         # "systray",
-        "launchpad",
+        # "launchpad",
         # "apps",
-        "pomodoro",
+        # "pomodoro",
         "weather",
         "disk",
         "battery",
