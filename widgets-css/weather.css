@@ -51,7 +51,7 @@
 }
 .weather-card .hourly-data {
   background-color: var(--blue);
-  
+
   font-size: 12px;
   font-weight: bold;
 }

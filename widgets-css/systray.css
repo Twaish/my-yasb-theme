@@ -3,7 +3,7 @@
   border: None;
   margin: 0;
 }
-.systray .pinned-container[forceshow=true] {
+.systray .pinned-container[forceshow="true"] {
   background: var(--black-4);
 }
 .systray .button {
@@ -13,7 +13,7 @@
 .systray .button:hover {
   background: var(--systray-icon-hover);
 }
-.systray .button[dragging=true] {
+.systray .button[dragging="true"] {
   background: var(--black-4);
   border-color: var(--black-6);
 }

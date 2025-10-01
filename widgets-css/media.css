@@ -27,8 +27,6 @@
   font-size: 20px;
 }
 
-
-
 .media-menu {
   min-width: 420px;
   max-width: 420px;
@@ -102,7 +100,7 @@
   min-height: 40px;
   max-height: 40px;
   border-radius: 20px;
-  font-size: 24px
+  font-size: 24px;
 }
 .media-menu .btn.play:hover {
   color: white;
@@ -131,7 +129,6 @@
   height: 2px;
   border-radius: var(--radius-md);
   background-color: var(--black-2);
-
 }
 .media-menu .progress-slider::groove:hover {
   background: transparent;
@@ -145,10 +142,9 @@
   height: 4px;
 }
 
-
 .media-menu .app-volume-container {
   max-height: 420px;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 .media-menu .app-volume-container .volume-slider::groove {
   background-color: var(--black-5);
@@ -166,7 +162,7 @@
 .media-menu .app-volume-container .unmute-button {
   font-size: 16px;
   font-family: "Segoe Fluent Icons";
-  margin-top: 4px; 
+  margin-top: 4px;
 }
 .media-menu .app-volume-container .unmute-button {
   color: var(--muted);

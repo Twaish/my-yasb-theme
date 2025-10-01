@@ -1,9 +1,8 @@
-
 .context-menu,
 .context-menu .menu-checkbox {
   background-color: var(--background);
   padding: 4px 0px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-size: 12px;
   color: var(--text);
 }
@@ -40,7 +39,7 @@
   padding: 8px 16px;
   font-size: 12px;
   color: var(--text);
-  font-family: 'Segoe UI'
+  font-family: "Segoe UI";
 }
 .context-menu .submenu::item:disabled {
   padding-left: 16px;
