@@ -1,0 +1,43 @@
+.yasb-bar {
+  /* Keep context menu behavior */
+  background-color: rgba(0, 0, 0, 0.01); 
+  border: none;
+  border-radius: 0;
+}
+.home-widget,
+.active-window-widget,
+.weather-widget,
+.disk-widget,
+.battery-widget,
+.microphone-widget,
+.volume-widget,
+.power-menu-widget,
+.media-widget,
+.cava-widget,
+.clock-widget {
+  background-color: var(--background);
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0px 6px;
+  height: 24px;
+  max-height: 24px;
+}
+
+.clock-widget {
+  background-color: transparent;
+  border-radius: 0;
+}
+.clock-widget * {
+  font-size: 18px;
+  color: var(--background);
+}
+.clock-widget .label {
+  background-color: var(--background);
+  font-size: 12px;
+  color: var(--text);
+  padding: 0 4px;
+  height: 24px;
+  max-height: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
