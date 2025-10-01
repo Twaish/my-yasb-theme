@@ -5,6 +5,6 @@
 .taskbar-widget .app-icon {
   padding: 0 6px;
 }
-.taskbar-widget .app-icon.foreground{
-  background-color: var(--surface1);
+.taskbar-widget .app-icon.foreground {
+  background-color: var(--black-5);
 }

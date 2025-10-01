@@ -4,7 +4,7 @@
   margin: 0;
 }
 .systray .pinned-container[forceshow=true] {
-  background: var(--surface2);
+  background: var(--black-4);
 }
 .systray .button {
   border-radius: var(--systray-icon-radius);
@@ -14,8 +14,8 @@
   background: var(--systray-icon-hover);
 }
 .systray .button[dragging=true] {
-  background: var(--surface1);
-  border-color: var(--base);
+  background: var(--black-4);
+  border-color: var(--black-6);
 }
 .systray .unpinned-visibility-btn {
   border-radius: var(--systray-icon-radius);
@@ -27,5 +27,5 @@
 }
 .systray .unpinned-visibility-btn:hover {
   border-radius: var(--systray-icon-radius);
-  background: var(--surface1);
+  background: var(--black-4);
 }
