@@ -1,9 +1,7 @@
-# This is default and very simple configuration file for Yasb. 
-# For more information about configuration options, please visit the Wiki https://github.com/amnweb/yasb/wiki
 watch_stylesheet: true
 watch_config: true
 debug: false
-update_check: true # Enable automatic update check.
+update_check: true
 komorebi:
   start_command: "komorebic start --whkd"
   stop_command: "komorebic stop --whkd"
@@ -67,7 +65,6 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      # label: "<span>\udb81\udf17</span>"
       label: "<span>\ue62a</span>"
       menu_list:
       - { title: "User Home", path: "~" }
@@ -257,10 +254,10 @@ widgets:
         time_format: "24h"
         hourly_point_spacing: 76
         hourly_icon_size: 32
-        icon_smoothing: true # should be true for smoother icon or false for sharper icon if using 16, 32 or 64 for hourly_icon_size
-        temp_line_width: 2 # can be 0 to hide the temperature line
+        icon_smoothing: true
+        temp_line_width: 2
         current_line_color: "#8EAEE8"
-        current_line_width: 1 # can be 0 to hide the current hour line
+        current_line_width: 1
         current_line_style: "dot"
   volume:
     type: "yasb.volume.VolumeWidget"
@@ -335,9 +332,9 @@ widgets:
       class_name: "systray"
       label_collapsed: "▼"
       label_expanded: "▶"
-      label_position: "left" # Can be "left" or "right"
-      icon_size: 16 # Can be any integer between 8 and 64
-      pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
+      label_position: "left"
+      icon_size: 16
+      pin_click_modifier: "alt"
       show_unpinned: true
       show_unpinned_button: true
       show_battery: false
