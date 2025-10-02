@@ -1,4 +1,4 @@
-<<: !include _base.yaml
+_merge: !include _base.yaml
 bars:
   primary-bar: !include _primary_bar.yaml
 widgets:
