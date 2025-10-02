@@ -1,0 +1,11 @@
+type: "yasb.microphone.MicrophoneWidget"
+options:
+  label: "<span>{icon}</span> {level}"
+  label_alt: "<span>{icon}</span> {level}%"
+  icons:
+    normal: "\udb80\udf6c"
+    muted: "\udb80\udf6d"
+  callbacks:
+    on_left: "toggle_mute"
+    on_middle: "toggle_label"
+    on_right: "exec cmd.exe /c start ms-settings:sound"

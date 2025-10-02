@@ -1,0 +1,10 @@
+type: "yasb.active_window.ActiveWindowWidget"
+options:
+  label: "{win[title]}"
+  label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
+  label_no_window: ""
+  label_icon: true
+  label_icon_size: 14
+  max_length: 56
+  max_length_ellipsis: "..."
+  monitor_exclusive: true

@@ -1,0 +1,16 @@
+type: "komorebi.workspaces.WorkspaceWidget"
+options:
+  label_offline: "\u23fc Offline"
+  label_workspace_btn: "\udb81\udc3d"
+  label_workspace_active_btn: ""
+  label_workspace_populated_btn: "\udb81\udc3e"
+  label_default_name: "{index}"
+  label_zero_index: false
+  hide_empty_workspaces: false
+  hide_if_offline: true
+  animation: true
+  container_padding:
+    top: 0
+    left: 8
+    bottom: 0
+    right: 8

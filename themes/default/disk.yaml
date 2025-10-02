@@ -1,0 +1,23 @@
+type: "yasb.disk.DiskWidget"
+options:
+  label: "<span>\uf1c0</span> {space[used][percent]}"
+  label_alt: "<span>\uf1c0</span> {space[used][gb]} / {space[total][gb]}"
+  volume_label: "C"
+  update_interval: 60
+  group_label:
+    volume_labels: ["C", "D", "E", "F"]
+    show_label_name: true
+    blur: True
+    round_corners: True
+    round_corners_type: "normal"
+    border_color: "System"
+    alignment: "right"
+    direction: "down"
+  callbacks:
+    on_left: "toggle_group"
+    on_middle: "do_nothing"
+    on_right: "toggle_label"
+  disk_thresholds:
+    low: 25
+    medium: 50
+    high: 90

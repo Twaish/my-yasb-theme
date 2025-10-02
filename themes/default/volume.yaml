@@ -1,0 +1,14 @@
+type: "yasb.volume.VolumeWidget"
+options:
+  label: "<span>{icon}</span> {level}"
+  label_alt: "{volume}"
+  tooltip: true
+  volume_icons:
+    - "\ueee8"
+    - "\uf026"
+    - "\uf027"
+    - "\uf027"
+    - "\uf028"
+  callbacks:
+    on_left: "toggle_mute"
+    on_right: "exec cmd.exe /c start ms-settings:sound"

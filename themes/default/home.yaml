@@ -1,0 +1,14 @@
+type: "yasb.home.HomeWidget"
+options:
+  label: "<span>\ue62a</span>"
+  menu_list:
+    - { title: "User Home", path: "~" }
+    - { title: "Downloads", path: "~\\Downloads" }
+    - { title: "Documents", path: "~\\Documents" }
+    - { title: "Pictures", path: "~\\Pictures" }
+  system_menu: true
+  power_menu: true
+  blur: true
+  round_corners: true
+  round_corners_type: "normal"
+  border_color: "System"
