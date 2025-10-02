@@ -1,0 +1,22 @@
+type: "yasb.clock.ClockWidget"
+options:
+  label: "<span>\ue0b2</span> {%a, %d %b %H:%M} <span>\ue0b0</span>"
+  label_alt: "<span>\ue0b2</span>{%d-%m-%y %H:%M:%S}<span>\ue0b0</span>"
+  locale: "en_DK"
+  update_interval: 1000
+  timezones: ["Europe/Copenhagen"]
+  calendar:
+    blur: True
+    round_corners: True
+    round_corners_type: "normal"
+    border_color: "System"
+    alignment: "center"
+    direction: "down"
+    show_holidays: True
+    show_week_numbers: True
+    country_code: "DK"
+    holiday_color: "#FF6464"
+  callbacks:
+    on_left: "toggle_calendar"
+    on_middle: "next_timezone"
+    on_right: "toggle_label"
