@@ -1,0 +1,23 @@
+<<: !include _base.yaml
+bars:
+  primary-bar: !include _primary_bar.yaml
+widgets:
+  home: !include home.yaml
+  media: !include media.yaml
+  active_window: !include active_window.yaml
+  clock: !include clock.yaml
+  komorebi_workspaces: !include komorebi_workspaces.yaml
+  komorebi_active_layout: !include komorebi_active_layout.yaml
+  weather: !include weather.yaml
+  volume: !include volume.yaml
+  microphone: !include microphone.yaml
+  power_menu: !include power_menu.yaml
+  apps: !include apps.yaml
+  notifications: !include notifications.yaml
+  systray: !include systray.yaml
+  taskbar: !include taskbar.yaml
+  disk: !include disk.yaml
+  battery: !include battery.yaml
+  cava: !include cava.yaml
+  pomodoro: !include pomodoro.yaml
+  launchpad: !include launchpad.yaml
