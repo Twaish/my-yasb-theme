@@ -15,5 +15,5 @@ Build the config.yaml and styles.css from different widget building blocks using
 With a good file structure, building could have a param to control which theme to build:
 
 ```bash
-py3 build.py --theme Sharp
+py3 build.py build_config.yaml --theme Sharp --output config.yaml
 ```
