@@ -1,0 +1,158 @@
+.launchpad-widget {
+  padding: 0 6px;
+}
+.launchpad-widget .icon {
+  font-size: 18px;
+  color: var(--blue);
+}
+
+.launchpad .context-menu {
+  background-color: var(--background);
+  border-radius: var(--radius-lg);
+  color: var(--text);
+}
+.launchpad .context-menu::item {
+  background-color: transparent;
+  padding: 6px 12px;
+  margin: 2px 6px;
+  border-radius: var(--radius-md);
+  min-width: 100px;
+}
+.launchpad .context-menu::item:selected {
+  background-color: var(--black-2);
+}
+.launchpad .context-menu::item:pressed {
+  background-color: var(--black-3);
+}
+.launchpad .context-menu::separator {
+  height: 1px;
+  background-color: var(--black-4);
+  margin: 4px 8px;
+}
+.launchpad .context-menu::item:disabled {
+  color: var(--black-6);
+  background-color: transparent;
+}
+
+.launchpad .app-dialog {
+  background-color: var(--background);
+}
+.launchpad .app-dialog .buttons-container {
+  max-height: 40px;
+  min-height: 40px;
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+.launchpad .app-dialog .message {
+  padding: 10px 0;
+}
+.launchpad .app-dialog .title-field,
+.launchpad .app-dialog .path-field,
+.launchpad .app-dialog .icon-field {
+  background-color: #181818;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  padding: 0 6px;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 10px 0px 5px 0;
+  min-height: 30px;
+}
+.launchpad .app-dialog .title-field:focus,
+.launchpad .app-dialog .path-field:focus,
+.launchpad .app-dialog .icon-field:focus {
+  border-bottom-color: #4cc2ff;
+}
+.launchpad .app-dialog .button {
+  background-color: var(--black-3);
+  border-radius: var(--radius-md);
+  min-width: 80px;
+  padding: 0 6px;
+  margin: 10px 0 5px 6px;
+  min-height: 28px;
+  outline: none;
+  border: none;
+}
+.launchpad .app-dialog .buttons-container .button {
+  margin: 10px 0 5px 0px;
+  font-size: 13px;
+}
+.launchpad .app-dialog .button:focus {
+  border: 1px solid var(--black-6);
+}
+.launchpad .app-dialog .button:focus,
+.launchpad .app-dialog .button:hover {
+  background-color: var(--black-4);
+}
+.launchpad .app-dialog .button:pressed {
+  background-color: var(--black-5);
+}
+.launchpad .app-dialog .button.add,
+.launchpad .app-dialog .button.save {
+  background-color: #3b82f6;
+}
+.launchpad .app-dialog .button.delete {
+  background-color: #ef4444;
+}
+.launchpad .app-dialog .warning-message {
+  background-color: #2b0b0e;
+  border: 1px solid #5a303c;
+  border-radius: var(--radius-md);
+  color: #cc9b9f;
+  padding: 8px 12px;
+  margin: 4px 0px;
+}
+
+.launchpad .drop-overlay {
+  border: 2px dashed var(--blue);
+}
+.launchpad .drop-overlay .text {
+  text-transform: uppercase;
+}
+.launchpad .launchpad-container {
+  background-color: var(--background);
+}
+.launchpad .search-container {
+  background-color: transparent;
+  min-height: 60px;
+}
+.launchpad .search-input {
+  padding: 8px 12px;
+  margin: 10px;
+  font-size: 14px;
+  min-height: 24px;
+  max-height: 24px;
+  border-radius: var(--radius-lg);
+  background-color: var(--black-1);
+}
+.launchpad .launchpad-scroll-area {
+  background-color: transparent;
+  border: none;
+}
+.launchpad .app-icon {
+  border-radius: var(--radius-lg);
+  border: 1px solid transparent;
+  padding-top: 10px;
+  margin: 5px;
+  max-width: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+}
+.launchpad .app-icon:focus {
+  border: 1px solid var(--black-5);
+}
+.launchpad .app-icon:hover {
+  background-color: var(--black-2);
+}
+.launchpad .app-icon .title {
+  margin-top: 2px;
+}
+
+.launchpad .app-icon.url .title {
+  color: #52f1d2;
+}
+.launchpad .app-icon .icon {
+  padding: 0;
+  margin: 0;
+}

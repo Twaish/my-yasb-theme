@@ -1,0 +1,16 @@
+.apps-widget {
+  padding: 0;
+}
+.apps-widget .widget-container {
+  background-color: transparent;
+  border: none;
+}
+.apps-widget .label {
+  font-size: 14px;
+  padding: 0 2px;
+  color: var(--subtext);
+}
+.apps-widget .label:hover {
+  color: var(--text);
+  background-color: var(--black-2);
+}

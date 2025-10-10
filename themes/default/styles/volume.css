@@ -1,0 +1,7 @@
+.volume-widget {
+  padding: 0 6px;
+}
+.volume-widget .icon {
+  color: var(--blue);
+  margin-right: 2px;
+}
