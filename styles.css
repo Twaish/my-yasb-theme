@@ -1,83 +1,20 @@
-:root {
-  --mauve: #cba6f7;
-  --red: #f38ba8;
-  --yellow: #f9e2af;
-  --blue: #89b4fa;
-  --green: #a6e3a1;
-  --lavender: #b4befe;
-  --text: #cdd6f4;
-
-  --background: rgba(20, 20, 20, 0.8);
-  --black-0: rgba(255, 255, 255, 0.01);
-  --black-1: rgba(255, 255, 255, 0.03);
-  --black-2: rgba(255, 255, 255, 0.06);
-  --black-3: rgba(255, 255, 255, 0.09);
-  --black-4: rgba(255, 255, 255, 0.12);
-  --black-5: rgba(255, 255, 255, 0.15);
-  --black-6: rgba(255, 255, 255, 0.18);
-  --muted: rgba(150, 150, 150, 0.8);
-
-  --text: #efefef;
-  --text-inverse: #1e1e1e;
-
-  --subtext: #a6a6a6;
-
-  --border: #292929;
-
-  --systray-icon-hover: #727272;
-  --systray-icon-radius: 4px;
-
-  --radius-xl: 8px;
-  --radius-lg: 6px;
-  --radius-md: 4px;
-  --radius-sm: 2px;
-}
-* {
-  font-size: 12px;
-  color: var(--text);
-  font-weight: 600;
-  font-family: "JetBrainsMono NFP";
-  margin: 0;
-  padding: 0;
-}
-.yasb-bar {
-  background-color: var(--background);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border);
-}
-.tooltip {
-  padding: 6px 12px;
-  border-radius: var(--radius-md);
-  background-color: var(--background);
-  color: var(--text);
-}
-
-.widget {
-  padding: 0 12px;
-  margin: 0;
-}
-.icon {
-  font-size: 16px;
-}
-.widget .label {
-  padding: 0px 2px;
-}
-
-@import "widgets-css/pomodoro.css";
-@import "widgets-css/disk.css";
-@import "widgets-css/taskbar.css";
-@import "widgets-css/calendar.css";
-@import "widgets-css/systray.css";
-@import "widgets-css/notifications.css";
-@import "widgets-css/home.css";
-@import "widgets-css/media.css";
-@import "widgets-css/weather.css";
-@import "widgets-css/volume.css";
-@import "widgets-css/microphone.css";
-@import "widgets-css/powermenu.css";
-@import "widgets-css/applications.css";
-@import "widgets-css/battery.css";
-@import "widgets-css/contextmenu.css";
-@import "widgets-css/launchpad.css";
-@import "widgets-css/komorebiworkspaces.css";
-@import "widgets-css/komorebiactivelayout.css";
+/* Build timestamp: 1760125467 */
+@import "themes/default/_base.css";
+@import "themes/default/styles/applications.css";
+@import "themes/default/styles/battery.css";
+@import "themes/default/styles/calendar.css";
+@import "themes/default/styles/contextmenu.css";
+@import "themes/default/styles/disk.css";
+@import "themes/default/styles/home.css";
+@import "themes/default/styles/komorebiactivelayout.css";
+@import "themes/default/styles/komorebiworkspaces.css";
+@import "themes/default/styles/launchpad.css";
+@import "themes/default/styles/media.css";
+@import "themes/default/styles/microphone.css";
+@import "themes/default/styles/notifications.css";
+@import "themes/default/styles/pomodoro.css";
+@import "themes/default/styles/powermenu.css";
+@import "themes/default/styles/systray.css";
+@import "themes/default/styles/taskbar.css";
+@import "themes/default/styles/volume.css";
+@import "themes/default/styles/weather.css";
