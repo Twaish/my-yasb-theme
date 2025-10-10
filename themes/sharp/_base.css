@@ -4,6 +4,7 @@
   border: none;
   border-radius: 0;
 }
+
 .home-widget,
 .active-window-widget,
 .weather-widget,
@@ -27,10 +28,12 @@
   background-color: transparent;
   border-radius: 0;
 }
+
 .clock-widget * {
   font-size: 18px;
   color: var(--background);
 }
+
 .clock-widget .label {
   background-color: var(--background);
   font-size: 12px;
