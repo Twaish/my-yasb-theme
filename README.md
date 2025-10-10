@@ -4,16 +4,27 @@ This repository contains my configuration-files for [YASB](https://github.com/am
 
 ## Preview
 
+### default
+
 ![YASB Preview](./docs/preview.png)
+
+## Building Themes
+
+Build your YASB config (`config.yaml`) and styles (`styles.css`) individually or together using the `main.py` script.
+
+```bash
+# `styles.css` only
+py main.py -c styles.css -t sharp
+
+# `config.yaml` only
+py main.py -i theme_build/build_config.yaml -o config.yaml -t sharp
+
+# both
+py main.py -i theme_build/build_config.yaml -o config.yaml -c styles.css -t sharp
+```
 
 ## Ideas
 
-### Theme Preprocessor
+### Dev Mode
 
-Build the config.yaml and styles.css from different widget building blocks using a script. (Process import/require's in a yaml file)
-
-With a good file structure, building could have a param to control which theme to build:
-
-```bash
-py3 build.py build_config.yaml --theme Sharp --output config.yaml
-```
+Build the config.yaml or styles.css when modifying files inside the `./themes` folder.
