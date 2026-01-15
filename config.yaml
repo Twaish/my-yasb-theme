@@ -45,7 +45,6 @@ bars:
       center:
       - media
       - clock
-      - cava
       right:
       - weather
       - disk

@@ -28,7 +28,11 @@ padding:
 widgets:
   left:
     ["home", "komorebi_workspaces", "komorebi_active_layout", "active_window"]
-  center: ["media", "clock", "cava"]
+  center: [
+      "media",
+      "clock",
+      # "cava"
+    ]
   right: [
       # "taskbar",
       # "systray",
