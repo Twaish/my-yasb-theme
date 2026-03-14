@@ -238,8 +238,6 @@ widgets:
         cloudyNight: "\uE311"
         rainyDay: "\uE308"
         rainyNight: "\uE333"
-        snowyIcyDay: "\uE30A"
-        snowyIcyNight: "\uE335"
         blizzardDay: "\uDB83\uDF36"
         blizzardNight: "\uDB83\uDF36"
         foggyDay: "\uE303"
